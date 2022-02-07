@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500&display=swap');
 *{
   font-family: 'Zen Maru Gothic', sans-serif;
-letter-spacing:5px;}
+  letter-spacing
+}
+
 body{
 margin:0px;
 padding:0px;
 background:#fff url("https://github.com/2021Hackthon/icon/blob/gh-pages/bg.png?raw=true") center center fixed no-repeat;
 background-size: cover;　
 }  
-h1{
-  text-align:center;
-}
+
 .title{
   position:relative;
   text-align:center;
-  font-size:8rem
+  font-size:8rem;
+  color:#635c48;
 }
 .con{
   color-background:black;
@@ -42,10 +43,11 @@ h1{
 
 .container {
   position:relative;
-  padding-top:90px;
+  padding-top:100px;
 }
+
 .select{
-  padding-top:110px;
+  padding-top:90px;
 }
 
 .texttitle{
@@ -167,12 +169,21 @@ h1{
 	right: 0.4rem;
 }
 .toTop-arrow:focus {outline: none;}
-.select{
-  size:24px;
+#yes1 h3,#yes2 h3,#yes3 h3,#yes4 h3,#yes5 h3{
+  color:green;
+  font-weight:600;
 }
-h4{
-  text-align:center;
+#no1 h3,#no2 h3,#no3 h3,#no4 h3,#no5 h3{
+  color:red;
+  font-weight:600;
 }
-h3{
-  text-align:center;
+
+#section1{
+  background-color:#c9b16f;
+}
+.ww{
+  padding:16px;
+}
+#plus{
+  color:#bf8f4b;
 }
